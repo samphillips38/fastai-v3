@@ -12,7 +12,7 @@ from starlette.staticfiles import StaticFiles
 export_file_url = 'https://universityofcambridgecloud-my.sharepoint.com/:u:/g/personal/srp60_cam_ac_uk/EYngDj9CTFJMg3ldMPDHK6EB97HpMgQAxCoR56H7xDKF4A?download=1'
 export_file_name = 'export.pkl'
 
-classes = ['black', 'grizzly', 'teddys']
+classes = ['MG MGB', 'MG Midget', 'MGF']
 path = Path(__file__).parent
 
 app = Starlette()
